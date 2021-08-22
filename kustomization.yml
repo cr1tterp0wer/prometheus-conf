@@ -1,0 +1,18 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resource:
+  - apiRole.yml
+  - clusterRole.yml
+  - clusterRoleBinding.yml
+  - globalScrapeRules.yml
+  - kustomization.yml
+  - localMonitor.yml
+  - nodePort.yml
+  - podRole.yml
+  - replicaSet.yml
+  - scrapeAdvisor.yml
+  - scrapeAPIServer.yml
+  - scrapeNode.yml
+  - scrapePods.yml
+  - serviceAcount.yml
